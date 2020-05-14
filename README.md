@@ -3,6 +3,15 @@
 
 Ratagram is an app in which you can register and see the animals that you like the most to add them to your favorites, very similar to instagram.
 
+-Javascript
+-React
+-jsx
+-graphql
+-cypress
+-now
+-apollo
+-styledComponents
+
 I invite you to visit it https://ratagram.now.sh
 
 <img src="./ss/Ratagram.png"/>
@@ -16,3 +25,4 @@ If you want to test it in development, first of all, install all the dependencie
 -You can register and authenticate as in any other application, it will only be for a time given to the way the application was made, but you can enjoy the photos and register again whenever you want.
 
 -Once inside and with a registered user you can bookmark the photos that you like the most and like them to carry out the event.
+
