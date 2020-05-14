@@ -1,0 +1,79 @@
+{
+  "name": "curso-platzi-react-avanzado",
+  "version": "1.0.0",
+  "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
+  "main": "index.js",
+  "scripts": {
+    "serve:dev": "webpack --mode 'development' && npx serve dist -s",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "lint": "standard",
+    "now-build": "npm run build",
+    "cy": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+  },
+  "keywords": [],
+  "author": "Juan Diego Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "@storybook/preset-create-react-app": "2.1.1",
+    "babel": "6.23.0",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.5.0",
+    "cypress": "4.4.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "html-webpack-plugin": "4.0.4",
+    "mini-css-extract-plugin": "^0.8.2",
+    "standard": "14.3.3",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3",
+    "webpack-pwa-manifest": "4.2.0",
+    "workbox-routing": "^5.1.2",
+    "workbox-strategies": "5.1.2",
+    "workbox-webpack-plugin": "5.1.2"
+  },
+  "dependencies": {
+    "@reach/router": "1.2.1",
+    "apollo-boost": "0.4.7",
+    "graphql": "15.0.0",
+    "intersection-observer": "0.7.0",
+    "path": "0.12.7",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-apollo": "3.1.4",
+    "react-dom": "16.13.1",
+    "react-helmet": "6.0.0",
+    "react-icons": "3.9.0",
+    "serve": "10.1.2",
+    "styled-components": "5.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
